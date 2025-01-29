@@ -1,13 +1,26 @@
-<script lang="ts">
-	let x = 0;
-
-	function onClick() {
-		x = x + 1;
-	}
-</script>
-
-<h1 class="text-3xl font-bold underline">Hello world!</h1>
-
-<button class="p-2 bg-blue-500 text-white rounded-lg" on:click={onClick}>
-	Kliknil si me {x}-krat
-</button>
+<div class="grid grid-cols-3 gap-4">
+	<a
+		class=" text-white h-40 bg-blue-300 flex items-center justify-center uppercase font-bold"
+		href="/naloga1">Naloga 1</a
+	>
+	<a
+		class=" text-white h-40 bg-blue-300 flex items-center justify-center uppercase font-bold"
+		href="/naloga2">Naloga 2</a
+	>
+	<a
+		class=" text-white h-40 bg-blue-300 flex items-center justify-center uppercase font-bold"
+		href="/naloga3">Naloga 3</a
+	>
+	<a
+		class=" text-white h-40 bg-blue-300 flex items-center justify-center uppercase font-bold"
+		href="/naloga4">Naloga 4</a
+	>
+	<a
+		class=" text-white h-40 bg-blue-300 flex items-center justify-center uppercase font-bold"
+		href="/naloga5">Naloga 5</a
+	>
+	<a
+		class=" text-white h-40 bg-blue-300 flex items-center justify-center uppercase font-bold"
+		href="/naloga6">Naloga 6</a
+	>
+</div>
